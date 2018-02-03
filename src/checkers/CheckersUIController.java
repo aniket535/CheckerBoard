@@ -87,7 +87,7 @@ public class CheckersUIController implements Initializable {
         } else {
             StackPane.setMargin(anchor, new Insets(0, ((boardWidth - boardHeight) / 2), 0, ((boardWidth - boardHeight) / 2)));
         }
-
+        
         stackPane.getChildren().add(anchor);
     }
 
